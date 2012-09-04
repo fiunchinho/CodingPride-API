@@ -1,0 +1,17 @@
+{
+	"mongo":
+	{
+		"server": "mongodb://localhost:27017",
+		"options":
+		{
+			"@username": "",
+			"@password": "",
+			"db": "codingPride"
+		}
+	},
+	"slim":
+	{
+		"debug": true,
+		"templates.path": "../templates"
+	}
+}

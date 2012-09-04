@@ -1,0 +1,72 @@
+body {
+  padding-top: 90px;
+}
+li.user  {
+	display: inline-block;
+}
+li.user a  {
+	width: 200px;	
+	padding: 8px;
+	margin: 4px;
+	display: block;
+	border: 1px dotted #ddd;
+}
+li.user a:hover {
+	text-decoration: none;
+	color: maroon;
+}
+.avatar {
+	border: 1px solid #ddd;
+	padding: 2px;
+	margin: 2px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.badge {
+	display: inline-block;
+	margin: 8px;
+	padding: 0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
+
+.badge a {
+	display: block;
+	width: 180px;
+	height: 180px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+	background: url('../badges/badges-sprite-commit.png') 0 0;
+}
+
+.badge.PhpContributor a {
+    background-position: 0 540px;
+}
+.badge.JsContributor a {
+    background-position: -180px 540px;
+}
+.badge.FrontendContributor a {
+    background-position: -360px 540px;
+}
+.badge.CoreContributor a {
+    background-position: -540px 540px;
+}
+
+.badge.Reach500Commits a {
+	background-position: 0 360px;
+}
+.badge.Reach1000Commits a {
+    background-position: -180px 360px;
+}
+.badge.Reach3000Commits a {
+    background-position: -360px 360px;
+}
+.badge.Handyman a {
+    background-position: -540px 360px;
+}
